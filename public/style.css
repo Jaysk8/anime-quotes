@@ -6,3 +6,45 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    color: #f3f3f3;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+body {
+    background: url('https://i.imgur.com/3lqIfoS.jpeg');
+   height: 100%;
+   /* background-position: center; */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    padding: 14px;
+    margin-left: 350px;
+    opacity: 0.5;
+}
+
+.quote-container h3 {
+    padding: 18px;
+}
