@@ -7,44 +7,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    color: #f3f3f3;
-}
-
-header h1 {
-    font-size: 4rem;
-}
 
 body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background: url('https://i.imgur.com/3lqIfoS.jpeg');
-   height: 100%;
-   /* background-position: center; */
+    min-height: 100vh;
    background-repeat: no-repeat;
    background-size: cover;
+   padding: 2rem;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     margin-top: 5rem;
+    color:#fff;
+    padding: 4rem 1.5rem;
+
 }
 
-.quote-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    width: 600px;
-    height: 300px;
-    padding: 14px;
-    margin-left: 350px;
-    opacity: 0.5;
-}
-
-.quote-container h3 {
-    padding: 18px;
+.container h1 {
+    font-weight: bolder;
 }
